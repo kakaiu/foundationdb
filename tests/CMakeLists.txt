@@ -284,7 +284,7 @@ if(WITH_PYTHON)
     add_fdb_test(TEST_FILES noSim/ShardedRocksDBTest.toml IGNORE)
     add_fdb_test(TEST_FILES noSim/ShardedRocksDBCheckpointTest.toml IGNORE)
     add_fdb_test(TEST_FILES noSim/PerfShardedRocksDBTest.toml IGNORE)
-    add_fdb_test(TEST_FILES fast/PhysicalShardMove.toml IGNORE)
+    add_fdb_test(TEST_FILES fast/PhysicalShardMove.toml)
     add_fdb_test(TEST_FILES fast/StorageServerCheckpointRestore.toml IGNORE)
     add_fdb_test(TEST_FILES rare/PerpetualWiggleStorageMigration.toml IGNORE)
 
